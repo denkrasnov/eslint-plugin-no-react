@@ -1,5 +1,6 @@
 {
   "*.{js,tsx}": [
     "eslint --fix",
+    "npm test"
   ],
 }
