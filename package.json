@@ -1,17 +1,22 @@
 {
   "name": "eslint-plugin-no-react-import",
-  "version": "0.0.1",
-  "description": "eslint plugin to lint react import",
+  "version": "0.0.0-development",
+  "description": "Eslint plugin to forbid react import",
   "main": "index.js",
+  "author": "denkrasnov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbardini/storybook-addon-paddings.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest --colors",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts .",
     "format": "eslint --ignore-path .gitignore --ext .js,.ts --fix .",
-    "check:types": "tsc -p tsconfig.json --noEmit"
+    "check:types": "tsc -p tsconfig.json --noEmit",
+    "prepare": "husky install"
   },
-  "author": "denkrasnov",
-  "license": "MIT",
   "devDependencies": {
     "@types/eslint": "^7.2.13",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
@@ -19,7 +24,10 @@
     "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "husky": "^6.0.0",
     "jest": "^27.0.5",
+    "lint-staged": "^11.0.0",
     "mocha": "^9.0.1",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
