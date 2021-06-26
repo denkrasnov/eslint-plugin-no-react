@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "lib": ["es2017", "dom"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
+  },
+  "include": [
+    "./lib/**/*.ts"
+  ],
+  "exclude": [
+    "**/__tests__/*",
+    "node_modules",
+    "dist",
+  ]
+}

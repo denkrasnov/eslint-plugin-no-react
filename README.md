@@ -1,0 +1,1 @@
+This is a custom Eslint rule to lint React import.
