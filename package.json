@@ -1,13 +1,16 @@
 {
-  "name": "eslint-plugin-no-react-import",
+  "name": "eslint-plugin-no-react",
   "version": "0.0.0-development",
-  "description": "Eslint plugin to forbid react import",
-  "main": "index.js",
+  "description": "Eslint plugin to forbid React import and usage from global declaration",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**"
+    ],
   "author": "denkrasnov",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbardini/storybook-addon-paddings.git"
+    "url": "https://github.com/denkrasnov/eslint-plugin-no-react"
   },
   "scripts": {
     "build": "tsc",

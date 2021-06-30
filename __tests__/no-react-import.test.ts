@@ -20,7 +20,7 @@ ruleTester.run("no-react-import", rule, {
   import * as snthg from 'react';
   import ReactDOM from 'react-dom';
   import 'someFile.scss';
-  const some = React;s
+  const some = React;
   `
     }
   ],

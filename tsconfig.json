@@ -9,6 +9,9 @@
     "removeComments": true,
     "declaration": true,
     "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
   },
   "include": [
     "./lib/**/*.ts"
